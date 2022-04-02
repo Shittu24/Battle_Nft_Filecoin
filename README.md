@@ -1,19 +1,12 @@
-Battle NFT Character Creation
+# Battle NFT Character Creation
 The battle NFTs is built with verifiable RNG using the Chainlink VRF
 The NFTs change based on real world data using decentralized oracle
 Added the randomized NFTs to the OpenSea Marketplace.
 
-Generate a character
-truffle exec scripts/fund-contract.js --network rinkeby
-truffle exec scripts/generate-character.js --network rinkeby
-truffle exec scripts/get-character.js --network rinkeby
-
-This will create a new character with random stats! Depending how often deploy, one can pick which character by changing the dnd.getCharacterOverView(1) command in get-character.js to swap the 0. And It will give the overview of Battle NFT.
-
-Deploy to Opensea
+# Deploy to Opensea
 Since we have Battle NFTs created, we add a tokenURI. TokenURIs are the standard for showing the data of NFTs to the world. This makes it easier to store things like images since we don't have to waste the gas of adding them on-chain.
 
-The TokenURI represents a URL or other unique identifier, and it is an .json file with a few parameters.
+# The TokenURI represents a URL or other unique identifier, and it is an .json file with a few parameters.
 
 {
     "name": "Chainlink Knight",
