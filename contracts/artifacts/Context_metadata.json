@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DungeonsAndDragonsCharacter_flat.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DungeonsAndDragonsCharacter_flat.sol": {
+			"keccak256": "0x259462a1b90ab65d449a049c9ee6860387076761eb0b2f0c0f5ac8ad61c2fa13",
+			"urls": [
+				"bzz-raw://fa39957734b401f5d215455284d098454b263292420b4b66c0203877ad98840a",
+				"dweb:/ipfs/QmX6USxuxZ8yGhKjunYYGmBKF7NAo6EsWCDG24icFt9TwS"
+			]
+		}
+	},
+	"version": 1
+}

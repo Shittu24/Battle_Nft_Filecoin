@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DungeonsAndDragonsCharacter_flat.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DungeonsAndDragonsCharacter_flat.sol": {
+			"keccak256": "0x5f59897d17c34460e715fa0f0d557df79f4361fec7b0b919159131e2f7d89355",
+			"urls": [
+				"bzz-raw://fb378e928c19c6264a0182f41fb0f550d18a44b1c1170a2056c0088ee6e1c66f",
+				"dweb:/ipfs/QmPREQVKSCsUQRGxB2uMm1PTwprU7bgswywNcXkmA8ZTYT"
+			]
+		}
+	},
+	"version": 1
+}
